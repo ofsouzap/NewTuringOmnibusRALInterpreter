@@ -1,0 +1,9 @@
+10 LDA 2 / Load counter
+20 JMZ 90 / If finished adding, go to end
+30 SUB 3 / Decrement
+40 STA 2 / Store new counter value
+50 LDA 4 / Load current value
+60 ADD 1 / Add x
+70 STA 4 / Store new current value
+80 JMP 10 / Go back to start
+90 HLT / End proram
